@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronDown, Shield, Heart, Flame } from "lucide-react";
 
@@ -99,13 +100,19 @@ export default function HeroSection() {
               <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-saffron-700/50 shadow-2xl shadow-saffron-900/40">
                 {/* Placeholder for leader image */}
                 <div className="w-full h-full bg-gradient-to-br from-stone-800 via-saffron-950 to-stone-900 flex flex-col items-center justify-center">
-                  <div className="text-8xl mb-4">👤</div>
+                  {/* <div className="text-8xl mb-4">👤</div>
                   <p className="text-saffron-400 text-sm text-center px-4">
                     सूर्या भाऊ राठोड
-                  </p>
-                  <p className="text-stone-500 text-xs text-center px-4 mt-1">
-                    (येथे फोटो जोडा)
-                  </p>
+                  </p> */}
+                  <div className="text-center px-4 mt-4">
+                    <Image
+                      src="/surya-rathod.jpeg"
+                      alt="सूर्या भाऊ राठोड"
+                      width={400}
+                      height={400}
+                      className="mx-auto rounded-full"
+                    />
+                  </div>
                 </div>
               </div>
 
