@@ -19,8 +19,8 @@ export default function AnnouncementsPreview() {
           <div className="flex flex-col md:flex-row items-center justify-between mb-12 gap-4">
             <div>
               <span className="text-saffron-500 text-sm font-semibold uppercase tracking-widest">नवीन बातम्या</span>
-              <h2 className="section-title text-white mt-2">
-                ताज्या <span className="gradient-text">घोषणा</span>
+              <h2 className="section-title text-white mt-2 flex justify-center items-center gap-3">
+                ताज्या <span className="gradient-text !leading-normal">घोषणा</span>
               </h2>
             </div>
             <Link href="/announcements" className="btn-outline text-sm py-2">

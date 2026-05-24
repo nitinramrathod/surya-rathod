@@ -17,8 +17,8 @@ export default function AboutPage() {
         </div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <span className="text-saffron-500 text-sm font-semibold uppercase tracking-widest">परिचय</span>
-          <h1 className="section-title text-white mt-3 mb-4">
-            <span className="gradient-text">सूर्या भाऊ राठोड</span> कोण आहेत?
+          <h1 className="section-title text-white mt-3 mb-4 flex items-center justify-center gap-3">
+            <span className="gradient-text !leading-normal">सूर्या भाऊ राठोड</span> कोण आहेत?
           </h1>
           <div className="saffron-divider mx-auto mb-8" />
           <p className="text-stone-300 text-lg leading-relaxed max-w-2xl mx-auto">
@@ -93,8 +93,8 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionWrapper>
             <div className="text-center mb-14">
-              <h2 className="section-title text-white">
-                महत्त्वाचे <span className="gradient-text">टप्पे</span>
+              <h2 className="section-title text-white flex items-center justify-center gap-3">
+                महत्त्वाचे <span className="gradient-text !leading-normal">टप्पे</span>
               </h2>
               <div className="saffron-divider mx-auto mt-4" />
             </div>
@@ -130,8 +130,8 @@ export default function AboutPage() {
           <SectionWrapper>
             <div className="glass-card rounded-3xl p-10">
               <div className="text-5xl mb-6">🌟</div>
-              <h2 className="section-title text-white mb-6">
-                भविष्याची <span className="gradient-text">दृष्टी</span>
+              <h2 className="section-title text-white mb-6 flex items-center justify-center gap-3">
+                भविष्याची <span className="gradient-text !leading-normal">दृष्टी</span>
               </h2>
               <blockquote className="text-stone-300 text-xl leading-relaxed italic"
                 style={{ fontFamily: "'Tiro Devanagari Marathi', serif" }}>

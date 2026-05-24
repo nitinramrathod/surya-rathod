@@ -23,8 +23,8 @@ export default function WorksPage() {
         <div className="absolute top-0 right-0 w-96 h-96 bg-saffron-900/10 rounded-full blur-3xl" />
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <span className="text-saffron-500 text-sm font-semibold uppercase tracking-widest">सामाजिक सेवा</span>
-          <h1 className="section-title text-white mt-3 mb-4">
-            भाऊंचे <span className="gradient-text">कार्य</span>
+          <h1 className="section-title text-white mt-3 mb-4 flex items-center justify-center gap-3">
+            भाऊंचे <span className="gradient-text !leading-normal">कार्य</span>
           </h1>
           <div className="saffron-divider mx-auto mb-6" />
           <p className="text-stone-400 max-w-xl mx-auto">

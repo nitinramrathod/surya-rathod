@@ -13,8 +13,8 @@ export default function WorksPreview() {
         <SectionWrapper>
           <div className="text-center mb-14">
             <span className="text-saffron-500 text-sm font-semibold uppercase tracking-widest">सामाजिक कार्य</span>
-            <h2 className="section-title text-white mt-3 mb-4">
-              समाजासाठी <span className="gradient-text">केलेले कार्य</span>
+            <h2 className="section-title text-white mt-3 mb-4 flex items-center justify-center gap-3">
+              समाजासाठी <span className="gradient-text !leading-normal">केलेले कार्य</span>
             </h2>
             <div className="saffron-divider mx-auto mb-6" />
             <p className="text-stone-400 max-w-xl mx-auto">

@@ -45,8 +45,8 @@ export default function AnnouncementsPage() {
       <section className="py-16 bg-gradient-to-b from-red-950/20 to-stone-950">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <span className="text-saffron-500 text-sm font-semibold uppercase tracking-widest">नवीनतम बातम्या</span>
-          <h1 className="section-title text-white mt-3 mb-4">
-            ताज्या <span className="gradient-text">घोषणा</span>
+          <h1 className="section-title text-white mt-3 mb-4 flex items-center justify-center gap-3">
+            ताज्या <span className="gradient-text !leading-normal">घोषणा</span>
           </h1>
           <div className="saffron-divider mx-auto mb-6" />
           <p className="text-stone-400 max-w-xl mx-auto">
