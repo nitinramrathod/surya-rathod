@@ -11,6 +11,11 @@ const footerLinks = [
   { href: "/contact", label: "संपर्क" },
 ];
 
+const getCurrentYear = (): number => {
+  return new Date().getFullYear();
+};
+
+
 export default function Footer() {
   return (
     <footer className="bg-stone-950 border-t border-saffron-900/20 pt-16 pb-8">
@@ -84,7 +89,7 @@ export default function Footer() {
 
         <div className="border-t border-stone-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-stone-500 text-xs">
-            © २०२४ सूर्या भाऊ राठोड | देवा ग्रुप मुंबई. सर्व हक्क राखीव.
+            © {getCurrentYear()} सूर्या भाऊ राठोड | देवा ग्रुप मुंबई. सर्व हक्क राखीव.
           </p>
           <p className="text-stone-600 text-xs">
             न्यायासाठी लढतो, समाजासाठी जगतो 🙏

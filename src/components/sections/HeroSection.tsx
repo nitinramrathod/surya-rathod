@@ -38,7 +38,7 @@ export default function HeroSection() {
                 निर्भीड नेते
               </span>
               <span
-                className="block text-5xl md:text-7xl lg:text-8xl font-bold gradient-text leading-tight"
+                className="!leading-normal text-5xl md:text-7xl lg:text-8xl font-bold block gradient-text"
                 style={{ fontFamily: "'Tiro Devanagari Marathi', serif" }}
               >
                 सूर्या भाऊ
@@ -104,10 +104,10 @@ export default function HeroSection() {
                   <p className="text-saffron-400 text-sm text-center px-4">
                     सूर्या भाऊ राठोड
                   </p> */}
-                  <div className="text-center px-4 mt-4">
+                  <div className="text-center px-2">
                     <Image
                       src="/surya-rathod.jpeg"
-                      alt="सूर्या भाऊ राठोड"
+                      alt="surya bhau rathod"
                       width={400}
                       height={400}
                       className="mx-auto rounded-full"
